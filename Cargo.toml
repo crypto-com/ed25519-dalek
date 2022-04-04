@@ -22,7 +22,7 @@ travis-ci = { repository = "dalek-cryptography/ed25519-dalek", branch = "master"
 features = ["nightly", "batch"]
 
 [dependencies]
-curve25519-dalek = { version = "4.0.0-pre.2", default-features = false }
+curve25519-dalek = { version = "3.2.0", default-features = false }
 ed25519 = { version = "1", default-features = false }
 merlin = { version = "3", default-features = false, optional = true }
 rand = { version = "0.8", default-features = false, optional = true }
@@ -65,4 +65,4 @@ u32_backend = ["curve25519-dalek/u32_backend"]
 simd_backend = ["curve25519-dalek/simd_backend"]
 
 [patch.crates-io]
- curve25519-dalek = { git = "https://github.com/crypto-com/curve25519-dalek.git", rev = "295602a2b9670e0d606062935a4dd5c39d973a05" }
+curve25519-dalek = { git = "https://github.com/crypto-com/curve25519-dalek.git", rev = "845e196233eabdd075198c50010cc9c95761f9e2" }
