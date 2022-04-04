@@ -28,7 +28,6 @@ use sha2::Sha512;
 
 #[cfg(test)]
 mod vectors {
-    use ed25519::signature::Signature as _;
 
     use std::io::BufReader;
     use std::io::BufRead;
